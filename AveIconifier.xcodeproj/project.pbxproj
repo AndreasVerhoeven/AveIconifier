@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2155ADD1829006B006BD331 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2155ADC1829006B006BD331 /* Cocoa.framework */; };
+		B2155AE71829006B006BD331 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2155AE51829006B006BD331 /* InfoPlist.strings */; };
+		B2155AE91829006B006BD331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2155AE81829006B006BD331 /* main.m */; };
+		B2155AED1829006B006BD331 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B2155AEB1829006B006BD331 /* Credits.rtf */; };
+		B2155AF01829006B006BD331 /* AveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2155AEF1829006B006BD331 /* AveAppDelegate.m */; };
+		B2155AF31829006B006BD331 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2155AF11829006B006BD331 /* MainMenu.xib */; };
+		B2155AF51829006B006BD331 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2155AF41829006B006BD331 /* Images.xcassets */; };
+		B2155AFC1829006B006BD331 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2155AFB1829006B006BD331 /* XCTest.framework */; };
+		B2155AFD1829006B006BD331 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2155ADC1829006B006BD331 /* Cocoa.framework */; };
+		B2155B051829006B006BD331 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2155B031829006B006BD331 /* InfoPlist.strings */; };
+		B2155B071829006B006BD331 /* AveIconifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2155B061829006B006BD331 /* AveIconifierTests.m */; };
+		B2155B1218290929006BD331 /* AveDragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2155B1118290929006BD331 /* AveDragDropImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2155AFE1829006B006BD331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2155AD11829006B006BD331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2155AD81829006B006BD331;
+			remoteInfo = AveIconifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2155AD91829006B006BD331 /* AveIconifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AveIconifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2155ADC1829006B006BD331 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B2155ADF1829006B006BD331 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B2155AE01829006B006BD331 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B2155AE11829006B006BD331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2155AE41829006B006BD331 /* AveIconifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AveIconifier-Info.plist"; sourceTree = "<group>"; };
+		B2155AE61829006B006BD331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2155AE81829006B006BD331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2155AEA1829006B006BD331 /* AveIconifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AveIconifier-Prefix.pch"; sourceTree = "<group>"; };
+		B2155AEC1829006B006BD331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B2155AEE1829006B006BD331 /* AveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AveAppDelegate.h; sourceTree = "<group>"; };
+		B2155AEF1829006B006BD331 /* AveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AveAppDelegate.m; sourceTree = "<group>"; };
+		B2155AF21829006B006BD331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B2155AF41829006B006BD331 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2155AFA1829006B006BD331 /* AveIconifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AveIconifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2155AFB1829006B006BD331 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B2155B021829006B006BD331 /* AveIconifierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AveIconifierTests-Info.plist"; sourceTree = "<group>"; };
+		B2155B041829006B006BD331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2155B061829006B006BD331 /* AveIconifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AveIconifierTests.m; sourceTree = "<group>"; };
+		B2155B1018290929006BD331 /* AveDragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveDragDropImageView.h; sourceTree = "<group>"; };
+		B2155B1118290929006BD331 /* AveDragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AveDragDropImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2155AD61829006B006BD331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2155ADD1829006B006BD331 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2155AF71829006B006BD331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2155AFD1829006B006BD331 /* Cocoa.framework in Frameworks */,
+				B2155AFC1829006B006BD331 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2155AD01829006B006BD331 = {
+			isa = PBXGroup;
+			children = (
+				B2155AE21829006B006BD331 /* AveIconifier */,
+				B2155B001829006B006BD331 /* AveIconifierTests */,
+				B2155ADB1829006B006BD331 /* Frameworks */,
+				B2155ADA1829006B006BD331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2155ADA1829006B006BD331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2155AD91829006B006BD331 /* AveIconifier.app */,
+				B2155AFA1829006B006BD331 /* AveIconifierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2155ADB1829006B006BD331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2155ADC1829006B006BD331 /* Cocoa.framework */,
+				B2155AFB1829006B006BD331 /* XCTest.framework */,
+				B2155ADE1829006B006BD331 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2155ADE1829006B006BD331 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2155ADF1829006B006BD331 /* AppKit.framework */,
+				B2155AE01829006B006BD331 /* CoreData.framework */,
+				B2155AE11829006B006BD331 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B2155AE21829006B006BD331 /* AveIconifier */ = {
+			isa = PBXGroup;
+			children = (
+				B2155AEE1829006B006BD331 /* AveAppDelegate.h */,
+				B2155AEF1829006B006BD331 /* AveAppDelegate.m */,
+				B2155AF11829006B006BD331 /* MainMenu.xib */,
+				B2155AF41829006B006BD331 /* Images.xcassets */,
+				B2155AE31829006B006BD331 /* Supporting Files */,
+				B2155B1018290929006BD331 /* AveDragDropImageView.h */,
+				B2155B1118290929006BD331 /* AveDragDropImageView.m */,
+			);
+			path = AveIconifier;
+			sourceTree = "<group>";
+		};
+		B2155AE31829006B006BD331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2155AE41829006B006BD331 /* AveIconifier-Info.plist */,
+				B2155AE51829006B006BD331 /* InfoPlist.strings */,
+				B2155AE81829006B006BD331 /* main.m */,
+				B2155AEA1829006B006BD331 /* AveIconifier-Prefix.pch */,
+				B2155AEB1829006B006BD331 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2155B001829006B006BD331 /* AveIconifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2155B061829006B006BD331 /* AveIconifierTests.m */,
+				B2155B011829006B006BD331 /* Supporting Files */,
+			);
+			path = AveIconifierTests;
+			sourceTree = "<group>";
+		};
+		B2155B011829006B006BD331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2155B021829006B006BD331 /* AveIconifierTests-Info.plist */,
+				B2155B031829006B006BD331 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2155AD81829006B006BD331 /* AveIconifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2155B0A1829006B006BD331 /* Build configuration list for PBXNativeTarget "AveIconifier" */;
+			buildPhases = (
+				B2155AD51829006B006BD331 /* Sources */,
+				B2155AD61829006B006BD331 /* Frameworks */,
+				B2155AD71829006B006BD331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AveIconifier;
+			productName = AveIconifier;
+			productReference = B2155AD91829006B006BD331 /* AveIconifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2155AF91829006B006BD331 /* AveIconifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2155B0D1829006B006BD331 /* Build configuration list for PBXNativeTarget "AveIconifierTests" */;
+			buildPhases = (
+				B2155AF61829006B006BD331 /* Sources */,
+				B2155AF71829006B006BD331 /* Frameworks */,
+				B2155AF81829006B006BD331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2155AFF1829006B006BD331 /* PBXTargetDependency */,
+			);
+			name = AveIconifierTests;
+			productName = AveIconifierTests;
+			productReference = B2155AFA1829006B006BD331 /* AveIconifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2155AD11829006B006BD331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ave;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = AveApps;
+				TargetAttributes = {
+					B2155AF91829006B006BD331 = {
+						TestTargetID = B2155AD81829006B006BD331;
+					};
+				};
+			};
+			buildConfigurationList = B2155AD41829006B006BD331 /* Build configuration list for PBXProject "AveIconifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2155AD01829006B006BD331;
+			productRefGroup = B2155ADA1829006B006BD331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2155AD81829006B006BD331 /* AveIconifier */,
+				B2155AF91829006B006BD331 /* AveIconifierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2155AD71829006B006BD331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2155AE71829006B006BD331 /* InfoPlist.strings in Resources */,
+				B2155AF51829006B006BD331 /* Images.xcassets in Resources */,
+				B2155AED1829006B006BD331 /* Credits.rtf in Resources */,
+				B2155AF31829006B006BD331 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2155AF81829006B006BD331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2155B051829006B006BD331 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2155AD51829006B006BD331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2155B1218290929006BD331 /* AveDragDropImageView.m in Sources */,
+				B2155AE91829006B006BD331 /* main.m in Sources */,
+				B2155AF01829006B006BD331 /* AveAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2155AF61829006B006BD331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2155B071829006B006BD331 /* AveIconifierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2155AFF1829006B006BD331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2155AD81829006B006BD331 /* AveIconifier */;
+			targetProxy = B2155AFE1829006B006BD331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2155AE51829006B006BD331 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2155AE61829006B006BD331 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2155AEB1829006B006BD331 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2155AEC1829006B006BD331 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B2155AF11829006B006BD331 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2155AF21829006B006BD331 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B2155B031829006B006BD331 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2155B041829006B006BD331 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2155B081829006B006BD331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2155B091829006B006BD331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2155B0B1829006B006BD331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AveIconifier/AveIconifier-Prefix.pch";
+				INFOPLIST_FILE = "AveIconifier/AveIconifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2155B0C1829006B006BD331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AveIconifier/AveIconifier-Prefix.pch";
+				INFOPLIST_FILE = "AveIconifier/AveIconifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2155B0E1829006B006BD331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AveIconifier.app/Contents/MacOS/AveIconifier";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AveIconifier/AveIconifier-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AveIconifierTests/AveIconifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B2155B0F1829006B006BD331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AveIconifier.app/Contents/MacOS/AveIconifier";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AveIconifier/AveIconifier-Prefix.pch";
+				INFOPLIST_FILE = "AveIconifierTests/AveIconifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2155AD41829006B006BD331 /* Build configuration list for PBXProject "AveIconifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2155B081829006B006BD331 /* Debug */,
+				B2155B091829006B006BD331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2155B0A1829006B006BD331 /* Build configuration list for PBXNativeTarget "AveIconifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2155B0B1829006B006BD331 /* Debug */,
+				B2155B0C1829006B006BD331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2155B0D1829006B006BD331 /* Build configuration list for PBXNativeTarget "AveIconifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2155B0E1829006B006BD331 /* Debug */,
+				B2155B0F1829006B006BD331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2155AD11829006B006BD331 /* Project object */;
+}
